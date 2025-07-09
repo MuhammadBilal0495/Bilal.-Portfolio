@@ -54,21 +54,21 @@ section {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
 
-.logo {
+.logos {
     font-size: 2.5rem;
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
 }
 
-.navbar a {
+.navbars a {
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
 }
 
-.navbar a:hover,
-.navbar a.active {
+.navbars a:hover,
+.navbars a.active {
     color: var(--main-color);
 }
 
@@ -435,7 +435,7 @@ span {
         display: block;
     }
 
-    .navbar {
+    .navbars {
         position: absolute;
         top: 100%;
         left: 0;
@@ -448,11 +448,11 @@ span {
         display: none;
     }
 
-    .navbar.active {
+    .navbars.active {
         display: block;
     }
 
-    .navbar a {
+    .navbars a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
@@ -593,7 +593,7 @@ input:checked+.slider:before {
     transform: translateX(44px);
 }
 
-.navbar label {
+.navbars label {
     margin-left: 4rem;
     align-content: center;
 }
