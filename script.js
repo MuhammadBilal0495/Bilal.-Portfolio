@@ -1,6 +1,6 @@
 /*toggle icon navbar*/
 let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+let navbar = document.querySelector('.navbars');
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
@@ -38,7 +38,6 @@ window.onscroll = () => {
 
 /*scroll reveal*/
 ScrollReveal({
-    reset: true,
     distance: '80px',
     duration: 2000,
     delay: 200
@@ -52,7 +51,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*typed js*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Graphic Designer', 'Blogger'],
+    strings: ['Frontend Developer', 'Graphic Designer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,

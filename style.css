@@ -70,6 +70,7 @@ section {
 .navbars a:hover,
 .navbars a.active {
     color: var(--main-color);
+    text-decoration: none;
 }
 
 
@@ -140,6 +141,7 @@ span {
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
+    text-decoration: none;
 }
 
 .social-media a:hover {
