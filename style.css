@@ -126,7 +126,7 @@ span {
 
 svg path {
     fill: transparent;
-    stroke: white;
+    stroke: var(--text-color);
     stroke-width: 0.5;
     stroke-dasharray: 270;
     stroke-dashoffset: 270;
@@ -143,7 +143,7 @@ svg path {
     }
 
     100% {
-        fill: white;
+        fill: var(--text-color);
         stroke-dashoffset: 0;
     }
 }
