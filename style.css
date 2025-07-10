@@ -233,6 +233,7 @@ svg path {
     gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 4rem;
 }
 
 .column {
@@ -274,6 +275,9 @@ svg path {
     transition: width 1s ease-in-out;
 }
 
+.services {
+    background: var(--second-bg-color);
+}
 
 .services h2 {
     margin-bottom: 5rem;
@@ -290,7 +294,7 @@ svg path {
 
 .services-container .services-box {
     flex: 1 1 30rem;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
@@ -315,10 +319,6 @@ svg path {
 .services-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
-}
-
-.portfolio {
-    background: var(--second-bg-color);
 }
 
 .portfolio h2 {
@@ -395,6 +395,10 @@ svg path {
     color: var(--second-bg-color);
 }
 
+.contact {
+    background: var(--second-bg-color);
+}
+
 .contact h2 {
     margin-bottom: 3rem;
 }
@@ -418,7 +422,7 @@ svg path {
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
     border: 2px solid var(--main-color);
@@ -443,7 +447,6 @@ svg path {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
 }
 
 .footer-text p {
