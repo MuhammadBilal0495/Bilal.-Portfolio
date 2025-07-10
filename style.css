@@ -228,6 +228,53 @@ svg path {
     margin: 2rem 0 3rem;
 }
 
+.progress-wrapper {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.progress-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.progress-label {
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 4px;
+    color: #666;
+    width: 33rem;
+}
+
+.progress-container {
+    background-color: #e0e0e0;
+    height: 1.6rem;
+    width: 33rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: #0ef;
+    transition: width 1s ease-in-out;
+}
+
+
 .services h2 {
     margin-bottom: 5rem;
 }
@@ -439,6 +486,10 @@ svg path {
         padding: 10rem 3% 2rem;
     }
 
+    .skills {
+        padding-bottom: 7rem;
+    }
+
     .services {
         padding-bottom: 7rem;
     }
@@ -520,6 +571,17 @@ svg path {
 
     .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .progress-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .progress-label,
+    .progress-container {
+        width: 90vw;
+        max-width: 50rem;
     }
 }
 

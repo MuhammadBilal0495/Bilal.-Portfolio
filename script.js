@@ -87,3 +87,14 @@ window.addEventListener("DOMContentLoaded", () => {
     document.body.classList.toggle("light-theme", isLight);
     toggleCheckbox.checked = isLight;
 });
+
+// progress bar
+window.addEventListener('load', () => {
+    const bars = document.querySelectorAll('.progress-bar');
+    bars.forEach(bar => {
+        const percent = bar.getAttribute('data-percent');
+        setTimeout(() => {
+            bar.style.width = percent + '%';
+        }, 300);
+    });
+});
