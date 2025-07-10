@@ -330,7 +330,7 @@ svg path {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .portfolio-container .portfolio-box {
@@ -339,6 +339,7 @@ svg path {
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+    border: 2px solid var(--main-color);
 }
 
 .portfolio-box img {
