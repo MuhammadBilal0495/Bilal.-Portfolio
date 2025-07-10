@@ -88,20 +88,22 @@ section {
 
 .home-img img {
     width: 35vw;
-    animation: floatImage 4s ease-in-out infinite;
+
+
+    transform-style: preserve-3d;
+    animation: rotateY 5s linear infinite alternate;
 }
 
-@keyframes floatImage {
-    0% {
-        transform: translateY(0);
+
+
+
+@keyframes rotateY {
+    from {
+        transform: rotateY(0deg);
     }
 
-    50% {
-        transform: translateY(-2.4rem);
-    }
-
-    100% {
-        transform: translateY(0);
+    to {
+        transform: rotateY(360deg);
     }
 }
 
